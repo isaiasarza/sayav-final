@@ -24,7 +24,6 @@ public class EmpleadoDao {
 	}
 
 	public Empleado getEmpleado() throws JsonParseException, JsonMappingException, IOException {
-        String workingDir = System.getProperty("user.dir");
         //System.out.println(workingDir + File.separator + "src" + File.separator +"data.json");
         System.out.println(urlLoader.getResource("src" + File.separator + "data.json"));
         System.out.println(this.getClass().getResource("/resources/data.json"));

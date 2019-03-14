@@ -1,0 +1,5 @@
+{
+	"broker": "tcp://localhost:1883",
+	"clientId" :"Javier",
+	"port" : 6000	
+}
